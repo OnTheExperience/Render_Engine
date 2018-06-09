@@ -7,6 +7,7 @@ public class Main {
 
     public static void main(String[] args) {
         Dimension size = new Dimension(480, 560);
+        System.out.println("[Window creating process]..");
         RendWindow win = new RendWindow(size, "Rendering, EPTA", Color.CYAN);
 
     }

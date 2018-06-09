@@ -11,6 +11,7 @@ public class RendWindow extends JFrame
         setTitle(title);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
+        System.out.println("[Setting panel with CYAN background]..");
         panel = new MyPanel(size,background);
         add(panel);
 
